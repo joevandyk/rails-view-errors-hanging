@@ -1,0 +1,6 @@
+If you enable config/initializers/error_fix.rb, the app doesn't hang when 
+visiting /.
+
+I'm pretty sure this bug can be shown without having a few thousand routes,
+(maybe with more complex middleware or sessions or models?)
+but this was the quickest way I could find to show the bug.

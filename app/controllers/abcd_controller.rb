@@ -1,0 +1,2 @@
+class AbcdController < ApplicationController
+end
